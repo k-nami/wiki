@@ -23,7 +23,7 @@ pip install wordcloud mecab
 ```
 
 ## code
-```.py
+```
 import MeCab
 from wordcloud import WordCloud
 
