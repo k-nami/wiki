@@ -6,7 +6,7 @@
 
 [Home](index.md)
 
-[Projects]()
+<!-- [Projects]()
 
 [Survey]()
 
@@ -14,4 +14,8 @@
 
 [Command]()
 
-[Hardware]()
+[Hardware]() -->
+
+[misc]()
+
+  * [wordcloud](misc/wordcloud.md)
