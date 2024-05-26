@@ -6,8 +6,11 @@
 
 [Home](index.md)
 
+[CV](cv/cv.md)
+
 [Survey]()
 
+  * [paper notes](survey/paper_notes.md)
   * [sumo-user-conf-2022](survey/sumo_user_conf_2022.md)
 
 <!-- [Projects]()
