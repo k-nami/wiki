@@ -2,6 +2,40 @@
 
 テスト試行中．
 
+### [Alakuijala+ 24](https://doi.org/10.48550/arXiv.2405.19988),"Video-Language Critic: Transferable Reward Functions for Language-Conditioned Robotics", arXiv (2024)
+
+![alt text](img/Alakuijala24.png)
+
+* タスク文字列と画像系列に対する非マルコフな報酬を自己教師あり学習
+  * タスクを表す文字列cと動画vから，各時刻までの画像列とcの一致度を密な報酬関数（本文中はスコア）として学習
+  * 訓練データには，行動や報酬ラベルが含まれず，動画がタスクを達成していればよい
+  * TransformerベースのNNを，自己教師あり学習の枠組みで学習．
+  * ロスは二種類．ペアのvとcのスコアを上げ，ペアでないvとcのスコアを下げるcross-entorpyロスと，時刻方向に報酬が上がるよう促すsequential ranking loss．
+* 未学習のタスクやOpen-Xにおいて，学習速度が速く，タスク達成度が高いケースあり
+
+### [Geist+ 22](https://arxiv.org/abs/2106.03787v4), "Concave Utility Reinforcement Learning: The Mean-Field Game Viewpoint", AAMAS (2022)
+
+![alt text](img/Geist22.png)
+
+* Concave Utility Reinforcement Learning(CURL)がMean-Feald Game(MFG)として解けるケースとそのアルゴリズム、GridWorldの実験をまとめている
+  * CURLの目的関数は，状態行動対して定義される報酬を元にするのではなく，その確率分布に対する評価関数として広義に定義されるのがミソ
+  * 同じ解法で模倣学習や多目的最適化、制約付き強化学習を扱える
+* concaveなFを最大化する方策は、Fの偏微分を報酬とみなすMFGのナッシュ均衡に一致
+* 仮想プレイとオンライン鏡像降下法で解いた場合の数値実験では、後者の学習速度が速い
+<!-- * 非合理モデルが何処まで含まれるか？ -->
+
+### [Barnes+ 23](https://arxiv.org/abs/2405.19988), "Massively Scalable Inverse Reinforcement Learning in Google Maps", arXiv (2024)
+
+![alt text](img/Barnes23.png)
+
+* 世界の道路ネットワーク（Google Map）で110Mの軌跡を使う大規模なIRL．決定的環境・割引率なし．
+* MaxEntをベースに下記を組み合わせ
+  1. 分割されたregionごとに報酬推定
+  2. 状態価値の初期値をダイクストラ法で与える
+  3. 状態行動分布を求めるために，二つの方策をmixした行動分布（demonstrationの状態分布からH step先まで確率的方策，その先から目的地状態までダイクストラ法で求めた決定的方策）を使用
+  4. 道路ネットワークを圧縮
+* demonstrationに対する一致度（特にAccuracy，IoU）で提案法が最も良い．学習された経路には，私有地でも通り抜け可能な経路が含まれた
+
 ### [Zhi-Xuan+ 24](http://arxiv.org/abs/2402.17930) “Pragmatic Instruction Following and Goal Assistance via Cooperative Language-Guided Inverse Planning.”, arXiv (2024)
 
 * HumanとAssistantの2人ゲーム．2エージェントのjoint actionに関する共通のコストを最小化．
