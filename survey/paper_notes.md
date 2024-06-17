@@ -1,5 +1,11 @@
 # Paper notes
 
+### [Hämäläinen+ 23](https://proceedings.mlr.press/v216/hamalainen23a.html), "Differentiable User Models", In Proceedings of the Thirty-Ninth Conference on Uncertainty in Artificial Intelligence Pp. 798–808. PMLR. (2023)
+
+* ベイズに定理に基づくユーザーのパラメータ推定と行動予測について，それぞれをNNで代替．学習はmeta-trainingで，事前分布のパラメータ空間について対シミュレータで学習．推論時は，尤度計算や追加学習が不要．モデルはneural process．
+* 実験はGrid world，メニュー検索（行動推定とアシスタントへの実装）
+* meta-trainingと推論時でモデルが異なる状況は，学習データにノイズを入れた実験（実験2）のみ．ノイズに対してロバスト，かつ，ノイズが少ないほど精度が上がることを実験的に示している．
+
 ### [Yang+ 24](http://arxiv.org/abs/2402.17139), "Video as the New Language for Real-World Decision Making", arXiv (2024)
 
 <!-- （かつ言語も扱うmultimodalな） -->
