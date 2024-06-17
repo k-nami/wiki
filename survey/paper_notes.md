@@ -1,6 +1,24 @@
 # Paper notes
 
-テスト試行中．
+### [Yang+ 24](http://arxiv.org/abs/2402.17139), "Video as the New Language for Real-World Decision Making", arXiv (2024)
+
+<!-- （かつ言語も扱うmultimodalな） -->
+* 動画生成の基盤モデルについて動向まとめ
+* 複数のcomputer visionタスク，テキストの質問に対する動画での回答，画像に基づく推論などを，LLMのように，単一モデルで扱える可能性がある．また，この基盤モデルは世界モデル，つまり，ゲームや身体モデル，科学的な物理法則等のシミュレータとも見なせる
+* 課題は，データの少なさ，ラベルの不足，モデル選択，Hallucination，汎化性能
+* 有望な研究方向は，動画版のRLHFや，動画を物理的な行動へgroundingしFBから自己改善させる方向を上げている
+<!-- * 動画を扱う理由に，言語では取りこぼす情報があることを挙げているが，Hallucinationとは相性が悪いように見える． -->
+<!-- * SORAなどの動向を踏まえると，この辺り，資本の力の限界を，2年後くらいに見れるかな？ -->
+
+### [Liu+ 24](https://arxiv.org/abs/2405.16588), "Attaining Human`s Desirable Outcomes in Human-AI Interaction via Structural Causal Games", arXiv (2024)
+
+![alt text](img/liu24.png)
+
+* 2エージェント（AIと人間）間の相互作用をStructural Causal Gameで定式化
+* 複数のNash均衡が存在する問題において，AI側に介入（pre-policy intervention）することで，人間の効用上，望ましい均衡になるよう誘導
+* 実験はLLMベース．交渉問題と情報プロテクト
+<!-- * 因果推論とゲーム理論を組み合わせたものは面白い -->
+<!-- * 人間の効用が既知，Nash均衡が計算可能，介入量の学習アルゴリズムが非常にシンプルな点に改善の余地あり -->
 
 ### [Alakuijala+ 24](https://doi.org/10.48550/arXiv.2405.19988),"Video-Language Critic: Transferable Reward Functions for Language-Conditioned Robotics", arXiv (2024)
 
@@ -9,8 +27,8 @@
 * タスク文字列と画像系列に対する非マルコフな報酬を自己教師あり学習
   * タスクを表す文字列cと動画vから，各時刻までの画像列とcの一致度を密な報酬関数（本文中はスコア）として学習
   * 訓練データには，行動や報酬ラベルが含まれず，動画がタスクを達成していればよい
-  * TransformerベースのNNを，自己教師あり学習の枠組みで学習．
-  * ロスは二種類．ペアのvとcのスコアを上げ，ペアでないvとcのスコアを下げるcross-entorpyロスと，時刻方向に報酬が上がるよう促すsequential ranking loss．
+  * TransformerベースのNNを，自己教師あり学習の枠組みで学習
+  * ロスは二種類．ペアのvとcのスコアを上げ，ペアでないvとcのスコアを下げるcross-entorpyロスと，時刻方向に報酬が上がるよう促すsequential ranking loss
 * 未学習のタスクやOpen-Xにおいて，学習速度が速く，タスク達成度が高いケースあり
 
 ### [Geist+ 22](https://arxiv.org/abs/2106.03787v4), "Concave Utility Reinforcement Learning: The Mean-Field Game Viewpoint", AAMAS (2022)
