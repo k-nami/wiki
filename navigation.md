@@ -26,3 +26,4 @@
 [misc]()
 
   * [wordcloud](misc/wordcloud.md)
+  * [visualizer](misc/visualizer.md)
