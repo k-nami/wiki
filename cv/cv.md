@@ -42,6 +42,7 @@ Computation Conference (2018, Japan)
 
 ### Preprint
 
+* Jingchao Fang, Nikos Arechiga, <author>Keiichi Namaoshi</author>, Nayeli Bravo, Candice Hogan, David A. Shamma. "On LLM Wizards: Identifying Large Language Models' Behaviors for Wizard of Oz Experiments." arXiv preprint arXiv:2407.08067 (2024)
 * <author>Keiichi Namikoshi</author>, Alex Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, and Nikos Arechiga. "Using LLMs to Model the Beliefs and Preferences of Targeted Populations." arXiv preprint arXiv:2403.20252 (2024)
 
 ### Domestic conference
