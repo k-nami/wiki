@@ -10,11 +10,11 @@
     * GPS data analyzation 
     * The evacuation simulator with SUMO
     * Visualization with QGIS
-* Human-centerd AI, Toyota Research Institute, <location>Los Altos, CA</location> <time>2023/4 - 2024/4</time>
+* Human-centered AI, Toyota Research Institute, <location>Los Altos, CA</location> <time>2023/4 - 2024/4</time>
     * Language model
-    * Invervention system
+    * Intervention system
 * Research assistant, AI Research Center, National Institute of Advanced Industrial Science and Technology (AIST), <location>Ibaraki, Japan</location> <time>2019/8 - 2021/3</time>
-    * extracting rules/rewards of an evacuee from evacuation trajectories on theater
+    * Extracting rules/rewards of an evacuee from evacuation trajectories on theater
 
 ## Education
 
@@ -72,7 +72,7 @@ Computation Conference (2018, Japan)
 ## Award
 
 * Excellence poster award, The 19th MAS competition (2019.3.1 Tokyo)
-* Best poster awarad, Joint Agent Workshops & Symposium 2019 (2019.9 Oita)
+* Best poster award, Joint Agent Workshops & Symposium 2019 (2019.9 Oita)
 * Dean's award and Incentive award, Master's thesis (2018.3, Chiba)
 * Excellence poster award, Joint Agent Workshops & Symposium 2017 (2017.9 Chiba)
 * Excellence paper award, Bachelor's thesis (2016.3, Chiba)
@@ -84,10 +84,10 @@ Computation Conference (2018, Japan)
 
 ## Others
 
-* Attend [RIKEN data assimulation camp (basics)](https://www.data-assimilation.riken.jp/jp/events/riken_da_tr_2017/index.html), RIKEN Advanced Institute for Computational Science (2017.12 Kobe)
+* Attend [RIKEN data assimilation camp (basics)](https://www.data-assimilation.riken.jp/jp/events/riken_da_tr_2017/index.html), RIKEN Advanced Institute for Computational Science (2017.12 Kobe)
 * Reinforcement learning architecture study group, member (2019.3-2020)
   * presentation
-    * (19th) paper intoduce: inverse reinforcement learning with occlusion., 
-    * [(37th) Multi-agent inverse reinforcement learning: reward estimation of interactinge agents](https://www.slideshare.net/slideshow/multiagent-inverse-reinforcement-learning/148943042?from_search=0)
+    * (19th) paper introduction: inverse reinforcement learning with occlusion., 
+    * [(37th) Multi-agent inverse reinforcement learning: reward estimation of interacting agents](https://www.slideshare.net/slideshow/multiagent-inverse-reinforcement-learning/148943042?from_search=0)
 
 
