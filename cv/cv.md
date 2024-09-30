@@ -47,9 +47,9 @@ Computation Conference (2018, Japan)
 
 ### Domestic conference
 
-* Kazumi Krata, Kota Sata, <author>Keiichi Namikoshi</author>, Inoshita Daisuke, Road usage analysis for building consensus toward road resilience enhancement, The 26th conference Japan society for disaster information studies (2023.3.21 Tokyo, Oral, non-peer review)
+* Kazumi Kurata, Kota Sata, <author>Keiichi Namikoshi</author>, Inoshita Daisuke, Road usage analysis for building consensus toward road resilience enhancement, The 26th conference Japan society for disaster information studies (2023.3.21 Tokyo, Oral, non-peer review)
 * <author>Keiichi Namikoshi</author>, Kota Sata, Kenichi Kitahama, Development of Vehicle Evacuation Simulations for Mt. Fuji Eruption Disasters: A Case Study of Pre-Eruption Evacuation in Susono, Shizuoka, The 26th conference Japan society for disaster information studies (2023.3.21 Tokyo, Oral, non-peer review)
-* Kota Sata, <author>Keiichi Namikoshi</author>, Inoshita Daisuke, Kazumi Krata, Nobuo Arai, Generating Road Recovery Guidelines for the Period After 72 Hours Post-Disaster Using Vehicle Probe Data, The 23th conference Japan society for disaster information studies (2021.11.27 online, Oral, non-peer review)
+* Kota Sata, <author>Keiichi Namikoshi</author>, Inoshita Daisuke, Kazumi Kurata, Nobuo Arai, Generating Road Recovery Guidelines for the Period After 72 Hours Post-Disaster Using Vehicle Probe Data, The 23th conference Japan society for disaster information studies (2021.11.27 online, Oral, non-peer review)
 * <author>Keiichi Namikoshi</author>, Itsuki Noda, Sachiyo Arai: Heterogeneous swarm inverse reinforcement learning for multi-agent simulation model, Joint Agent Workshops & Symposium 2019 (2019.9.10 Oita, Poster, non-peer review)
 * <author>Keiichi Namikoshi</author>, Sachiyo Arai: Estimation of agent’s rewards with multi-agent maximum discounted causal entropy inverse reinforcement learning, The 33th Annual Conference of the Japanese Society for Artificial Intelligence, 3P4-J-7-05 (2019.6.6 Niigata, Oral, )
 * Saiki Takumi, <author>Keiichi Namikoshi</author>: Quantitative evaluation of the impact of introducing a bike-sharing system through multi-agent simulation, The 19th MAS competition, (2019.3.1 Tokyo, Poster, non-peer review)
