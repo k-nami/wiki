@@ -1,5 +1,20 @@
 # Paper notes
 
+### [Osman+ 23](http://arxiv.org/abs/2305.02748), "A computational framework of human values for ethical AI", AAMAS2024
+
+* 行動に関する価値観（values）をDirected acyclic graph(DAG)で定義
+  * top nodeは最も抽象的なvalue (ex. fairness)
+  * 子ノードは具体
+  * leaf node(=property)は，指標化可能な具体例
+  * 各nodeはimportanceをもつ
+* 提案内容
+  * 定義，特にimportanceの一貫性の計算方法
+  * だれにとってのvaluesか？：個人，または集団
+  * Context-based，importanceをcontextに応じて計算
+  * value-alignment, behaviorとvalueのアライメントを，importanceで重みづけしたnodeのlabelとbehaviorの近さで定義
+* だれのvalueでどう指定するか，groundingの方法は，などopen problemは多い
+
+
 ### [Liu+ 24](https://arxiv.org/abs/2312.15224), "LLM-Powered Hierarchical Language Agent for Real-time Human-AI Coordination", AAMAS2024
 
 * リアルタイムの協調ベンチマークOvercookedを解くAgent
@@ -15,6 +30,7 @@
   * LLMはプロンプト，周辺はルールベース．
 * 提案のいずれかを削ったAgentと比較して，人間からのテキストへの制限に関わらず，提案法のタスク達成率が高い
 * 複数のLLMを組み合わせる提案は多いが、LLM能力差を吸収できるという点が面白い
+* [動画](https://sites.google.com/view/overcooked-hla/)
 
 <img src="img/liu24_2.png" alt="" style="max-width:700px;">
 
@@ -80,12 +96,12 @@
 ### [Barnes+ 23](https://arxiv.org/abs/2405.19988), "Massively Scalable Inverse Reinforcement Learning in Google Maps", arXiv (2024)
 
 * 世界の道路ネットワーク（Google Map）で110Mの軌跡を使う大規模なIRL．決定的環境・割引率なし．
-* MaxEntをベースに下記を組み合わせ
-  1. 分割されたregionごとに報酬推定
+* MaxEnt IRLをベースに下記を組み合わせ
+  1. mixture-of-experts: 分割されたregionごとに報酬推定
   2. 状態価値の初期値をダイクストラ法で与える
   3. 状態行動分布を求めるために，二つの方策をmixした行動分布（demonstrationの状態分布からH step先まで確率的方策，その先から目的地状態までダイクストラ法で求めた決定的方策）を使用
-  4. 道路ネットワークを圧縮
-* demonstrationに対する一致度（特にAccuracy，IoU）で提案法が最も良い．学習された経路には，私有地でも通り抜け可能な経路が含まれた
+  4. 道路ネットワークを圧縮（①ノード次数を下げるよう分割（ノード数の増加より削減量が大きい），２#edge=1のnodeを結合）
+* demonstrationに対する一致度（特にAccuracy，IoU; Intersection over Union of trajectory edges）で提案法が最も良い．学習された経路には，私有地であっても通り抜け可能な経路が含まれた
 
 <img src="img/Barnes23.png" alt="" style="max-width:700px;">
 
