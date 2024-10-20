@@ -93,7 +93,7 @@
 
 <img src="img/Geist22.png" alt="" style="max-width:700px;">
 
-### [Barnes+ 23](https://arxiv.org/abs/2405.19988), "Massively Scalable Inverse Reinforcement Learning in Google Maps", arXiv (2024)
+### [Barnes+ 23](https://arxiv.org/abs/2305.11290), "Massively Scalable Inverse Reinforcement Learning in Google Maps", arXiv (2024)
 
 * 世界の道路ネットワーク（Google Map）で110Mの軌跡を使う大規模なIRL．決定的環境・割引率なし．
 * MaxEnt IRLをベースに下記を組み合わせ
