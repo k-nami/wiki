@@ -46,7 +46,7 @@
 
 <img src="img/Jacob23.png" alt="" style="max-width:700px;">
 
-### [Hämäläinen+ 23](https://proceedings.mlr.press/v216/haalainen23a.html), "Differentiable User Models", In Proceedings of the Thirty-Ninth Conference on Uncertainty in Artificial Intelligence Pp. 798–808. PMLR. (2023)
+### [Hämäläinen+ 23](https://proceedings.mlr.press/v216/hamalainen23a), "Differentiable User Models", In Proceedings of the Thirty-Ninth Conference on Uncertainty in Artificial Intelligence Pp. 798–808. PMLR. (2023)
 
 * ベイズの定理に基づくユーザーのパラメータ推定と行動予測について，それぞれをNNで代替．学習はmeta-trainingで，事前分布のパラメータ空間についてシミュレータのデータで学習．推論時は，訓練済みのNNを用いるため，尤度計算や追加学習は不要．NNはneural process
 * 実験はGrid worldとメニュー検索（行動推定とアシスタントへの実装）
