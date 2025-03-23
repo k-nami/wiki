@@ -35,7 +35,7 @@ Japanese Society for Artificial Intelligence, 32.5 (2017)
 
 ### Conference/Workshop
 
-* <author>Keiichi Namikoshi</author>, Alex Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, and Nikos Arechiga. "Using LLMs to Model the Beliefs and Preferences of Targeted Populations.", NeurIPS 2024 Workshop on Behavioral Machine Learning, (2024, Canada, poster)
+* <author>Keiichi Namikoshi</author>, Alexandre Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, and Nikos Arechiga. "Using LLMs to Model the Beliefs and Preferences of Targeted Populations.", NeurIPS 2024 Workshop on Behavioral Machine Learning, (2024, Canada, poster)
 * <author>Keiichi Namikoshi</author>, and Sachiyo Arai. "Estimation of agent’s rewards using multi-agent maximum discounted causal entropy inverse reinforcement
 learning.", Adaptive and Learning Agents (ALA), (2019, Canada, short talk and poster)
 * <author>Keiichi Namikoshi</author>, and Sachiyo Arai. "Estimation of the heterogeneous strategies from action log.", Proceedings of the Genetic and Evolutionary
@@ -43,6 +43,7 @@ Computation Conference (2018, Japan)
 
 ### Preprint
 
+* <author>Keiichi Namikoshi</author>, David A. Shamma, Rumen Iliev, Jingchao Fang, Alexandre Filipowicz, Candice L. Hogan, Charlene Wu, Nikos Arechiga. "Leveraging Language Models and Bandit Algorithms to Drive Adoption of Battery-Electric Vehicles.", arXiv preprint arXiv:2410.23371 (2024)
 * Jingchao Fang, Nikos Arechiga, <author>Keiichi Namaoshi</author>, Nayeli Bravo, Candice Hogan, David A. Shamma. "On LLM Wizards: Identifying Large Language Models' Behaviors for Wizard of Oz Experiments." arXiv preprint arXiv:2407.08067 (2024)
 
 ### Domestic conference
