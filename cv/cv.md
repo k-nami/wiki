@@ -6,7 +6,7 @@
 
 ## Work experience
 
-* Frontier Research Center, Toyota Motor Corporation, <location> Shizuoka, Japan </location> <time> 2021/4 - current </time>
+* Frontier Research Center, Toyota Motor Corporation, <location> Shizuoka, Japan </location> <time> 2021/4 - 2024/3 </time>
     * GPS data analyzation 
     * The evacuation simulator with SUMO
     * Visualization with QGIS
@@ -35,6 +35,7 @@ Japanese Society for Artificial Intelligence, 32.5 (2017)
 
 ### Conference/Workshop
 
+* <author>Keiichi Namikoshi</author>, Alex Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, and Nikos Arechiga. "Using LLMs to Model the Beliefs and Preferences of Targeted Populations.", NeurIPS 2024 Workshop on Behavioral Machine Learning, (2024, Canada, poster)
 * <author>Keiichi Namikoshi</author>, and Sachiyo Arai. "Estimation of agent’s rewards using multi-agent maximum discounted causal entropy inverse reinforcement
 learning.", Adaptive and Learning Agents (ALA), (2019, Canada, short talk and poster)
 * <author>Keiichi Namikoshi</author>, and Sachiyo Arai. "Estimation of the heterogeneous strategies from action log.", Proceedings of the Genetic and Evolutionary
@@ -43,10 +44,11 @@ Computation Conference (2018, Japan)
 ### Preprint
 
 * Jingchao Fang, Nikos Arechiga, <author>Keiichi Namaoshi</author>, Nayeli Bravo, Candice Hogan, David A. Shamma. "On LLM Wizards: Identifying Large Language Models' Behaviors for Wizard of Oz Experiments." arXiv preprint arXiv:2407.08067 (2024)
-* <author>Keiichi Namikoshi</author>, Alex Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, and Nikos Arechiga. "Using LLMs to Model the Beliefs and Preferences of Targeted Populations." arXiv preprint arXiv:2403.20252 (2024)
 
 ### Domestic conference
 
+* <author>Keiichi Namikoshi</author>, Kota Sata, Impact Assessment and Attitude Survey on Vehicle Usage Associated with Handover: A Case Study of Joint Handover Drill for Elementary and Middle Schools in Susono, Shizuoka, The 30th conference Japan society for disaster information studies (2024.3.15 Tokyo, Oral, non-peer review)
+<!-- 引き渡しに伴う車両利用の影響評価と意向調査: 静岡県裾野市小中合同引き渡し訓練におけるケーススタディ -->
 * Kazumi Kurata, Kota Sata, <author>Keiichi Namikoshi</author>, Inoshita Daisuke, Road usage analysis for building consensus toward road resilience enhancement, The 26th conference Japan society for disaster information studies (2023.3.21 Tokyo, Oral, non-peer review)
 * <author>Keiichi Namikoshi</author>, Kota Sata, Kenichi Kitahama, Development of Vehicle Evacuation Simulations for Mt. Fuji Eruption Disasters: A Case Study of Pre-Eruption Evacuation in Susono, Shizuoka, The 26th conference Japan society for disaster information studies (2023.3.21 Tokyo, Oral, non-peer review)
 * Kota Sata, <author>Keiichi Namikoshi</author>, Inoshita Daisuke, Kazumi Kurata, Nobuo Arai, Generating Road Recovery Guidelines for the Period After 72 Hours Post-Disaster Using Vehicle Probe Data, The 23th conference Japan society for disaster information studies (2021.11.27 online, Oral, non-peer review)
