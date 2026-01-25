@@ -6,6 +6,7 @@
 
 ## Work experience
 
+* Nagoya Institute of Technology, <location> Aichi, Japan </location> <time>2025/4-current</time>
 * Frontier Research Center, Toyota Motor Corporation, <location> Shizuoka, Japan </location> <time> 2021/4 - 2024/3 </time>
     * GPS data analyzation 
     * The evacuation simulator with SUMO
@@ -26,6 +27,9 @@ Chiba University, <location>Chiba, Japan</location> <time>2012/4-2021/3</time>
 
 ## Publication
 
+Please refer to the link for the latest publications: 
+- [researchmap](https://researchmap.jp/keiichi_namikoshi?lang=en)
+
 ### Journal
 
 * <author>Keiichi Namikoshi</author>, and Sachiyo Arai. "Multi-agent Inverse Reinforcement Learning with Parallel Coordinate Descent Method for Improving Learning
@@ -35,6 +39,8 @@ Japanese Society for Artificial Intelligence, 32.5 (2017)
 
 ### Conference/Workshop
 
+* Shoma Mizuno, <author>Keichi Namikoshi</author>, Yuko Sakurai. "Social Influence-Based Mutual Acknowledgement Token Exchange (Student Abstract) ", The 40th Annual AAAI Conference on Artificial Intelligence (2026, poster)
+* <author>Keiichi Namikoshi</author>, Shoma Mizuno, Yuko Sakurai. "Token Adjustment for Peer Incentivization in Sequential Social Dilemma Environments.", IEEE International Conference on Agentic AI, (2025)
 * <author>Keiichi Namikoshi</author>, Alexandre Filipowicz, David A. Shamma, Rumen Iliev, Candice L. Hogan, and Nikos Arechiga. "Using LLMs to Model the Beliefs and Preferences of Targeted Populations.", NeurIPS 2024 Workshop on Behavioral Machine Learning, (2024, Canada, poster)
 * <author>Keiichi Namikoshi</author>, and Sachiyo Arai. "Estimation of agent’s rewards using multi-agent maximum discounted causal entropy inverse reinforcement
 learning.", Adaptive and Learning Agents (ALA), (2019, Canada, short talk and poster)
@@ -70,6 +76,7 @@ Computation Conference (2018, Japan)
 
 ## Grants and Fellowships
 
+* 2025/7 - 2027/3, Grants-in-Aid for Scientific Research
 * 2019/4 - 2021/3, JSPS Research Fellowship for Young Scientists
 
 ## Award
