@@ -9,13 +9,15 @@ I'm Keiichi Namikoshi, a industrial researcher interested in computer science su
 Basically contents is written with Japanese.
 
 - [CV (English)](cv/cv.md)
+
+<!--
 - Survey: Notes related to research
   - [paper notes](survey/paper_notes.md)
   - conference
     - [SUMO user conference 2022](survey/sumo_user_conf_2022.md)
     - [JSAI2024](survey/jsai2024.md)
 - misc: Notes related to techs
-
+-->
 
 
 
